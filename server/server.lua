@@ -1,4 +1,4 @@
-RegisterNetEvent('ykaa:buy', function(item, price)
+RegisterNetEvent('ykaa_drivethru:buy', function(item, price)
     local source = source
     
     local moneyCount = exports.ox_inventory:Search(source, 'count', 'money')
